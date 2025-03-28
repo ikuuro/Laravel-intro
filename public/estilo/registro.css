@@ -1,0 +1,115 @@
+/* Estilo geral para o corpo da página */
+body { 
+  font-family: 'Verdana', sans-serif;
+  background-color: #2a0034;
+  background-image: url('960x0.webp');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Mensagem de erro ou sucesso */
+.alert-message {
+  background-color: #702963; /* Roxo escuro */
+  color: #000; /* Laranja */
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  width: 100%;
+  max-width: 420px;
+  margin-bottom: 20px;
+  border: 1px solid #000;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo do formulário */
+.form {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 35px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 420px;
+  backdrop-filter: blur(5px);
+}
+
+/* Título do formulário */
+.form-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  margin-bottom: 25px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Contêiner do input */
+.input-container {
+  margin-bottom: 22px;
+}
+
+/* Estilo para os campos de input */
+.input-container input {
+  width: 100%;
+  padding: 12px;
+  font-size: 17px;
+  border: 1px solid #702963;
+  border-radius: 6px;
+  box-sizing: border-box;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Estilo para o foco dos campos de input */
+.input-container input:focus {
+  border-color: #000;
+  background-color: #fff;
+}
+
+/* Botão de envio */
+.submit {
+  width: 100%;
+  padding: 14px;
+  background-color: #702963;
+  color: #000;
+  font-size: 17px;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Efeito de hover no botão */
+.submit:hover {
+  background-color: #600050;
+  transform: scale(1.05);
+}
+
+/* Estilo do link para redirecionar para a página de login */
+.signup-link {
+  text-align: center;
+  font-size: 15px;
+  color: #000;
+}
+
+/* Estilo do link de login */
+.signup-link a {
+  color: #702963;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+  
